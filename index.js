@@ -1,1 +1,1 @@
-var client = require("@notionhq/client")
+import { Client } from "@notionhq/client"
