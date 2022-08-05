@@ -1,0 +1,14 @@
+# update
+
+name: update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: npm
+        run: npm update @notionhq/client
