@@ -11,4 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: try
-        run: node index.js
+        run: |
+          npm install
+          node index.js
