@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: npm
-        run: npm install @notionhq/client
+        run: npm install forever -g
